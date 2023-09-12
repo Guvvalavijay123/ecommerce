@@ -1,0 +1,408 @@
+/**/
+body {
+    overflow-x: hidden; background-color:white;
+    margin: 40px; 
+    /* padding-left: 80px; padding-right: 80px;  */
+}
+main{
+    background-color: lightgrey;
+    padding-left: 80px; padding-right: 80px;
+}
+header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: sticky;
+    top: 0px; background-color: white;
+    z-index: 10;
+}
+a:hover{
+    color: orange;
+    border: 1px solid orange;
+}
+
+.gv1 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+a {
+    text-decoration: none;
+}
+
+.l {
+    padding: 20px;
+}
+
+.l i {
+    color: orange;
+}
+
+.v {
+    color: blue;
+}
+
+.m {
+    color: orange;
+}
+
+.v,
+.m {
+    display: inline;
+    font-size: x-large;
+}
+
+.gv2 i {
+    padding: 15px;
+    background-color: rgb(166, 164, 164);
+    margin: 2px;
+    border-radius: 10px;  
+
+}
+
+.gv2 {
+    margin-left: 160px;
+}
+.gv2 i:hover{
+     border: 0.5px solid black;
+}
+
+.gv3 {
+    padding: 15px;
+}
+
+/*---------------------------------banner---------------------- */
+.img1 {
+    width: 100%;
+}
+
+.org {
+    color: orange;
+}
+
+.shop {
+    position: absolute;
+    border: 2px solid rgb(24, 23, 23);
+    border-radius: 5px;
+    color: black;
+    margin-top: -1px;
+    margin-left: 600px;
+    padding: 10px;
+}
+
+.banner1 {
+    margin-top: -300px;
+    margin-left: 400px;
+    font-size: xx-large;
+}
+
+.banner2 {
+    margin-top: -10px;
+    margin-left: 450px;
+}
+
+.banner3 {
+    margin-top: -10px;
+    margin-left: 500px;
+}
+/* ------------------------------------features--------------------------------------- */
+#features {
+    margin-top: 250px;
+    margin-left: 10px;
+    font-size: 22px; 
+}
+.card{
+    padding: 5px;
+    margin: 7px;
+    background-color: white;
+}
+.read {
+    margin-left: 550px;
+    margin-top: 200px; 
+}
+
+.feat {
+    color: white;
+    clip-path: polygon(100% 0, 97% 59%, 100% 100%, 0% 100%, 3% 54%, 0% 0%);
+ background: orange;
+}
+
+.of {
+    border: 1px solid silver;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 5px;
+}
+.of1{
+    border: 1px solid silver;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin: 5px;
+}
+
+.a1 {
+    text-decoration: none;
+    border: 2px solid rgb(227, 223, 223);
+    padding: 4px;
+    border-radius: 5px;
+    color: black;
+}
+
+.ourfeatures {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);  
+    
+}
+
+/* ----------------------------------------product-------------------------------------------- */
+.products {
+    margin-left: 550px;
+    font-size: 28px; 
+}
+
+.prod2 {
+    color: white;
+    clip-path: polygon(100% 0, 97% 59%, 100% 100%, 0% 100%, 3% 54%, 0% 0%);
+ background: orange;
+
+}
+
+.prod4 {
+    border: 1px solid silver;
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.prod4 img {
+    width: 70%;
+    height: 50%;
+}
+
+.prod4 i {
+    color: orange;
+}
+
+.a6 {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.prod3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* ------------------------------product categories-------------------------- */
+.prodcatees {
+    margin-left: 500px;
+    font-size: 28px;
+}
+
+.cate {
+    color: white;
+    clip-path: polygon(100% 0, 97% 59%, 100% 100%, 0% 100%, 3% 54%, 0% 0%);
+ background: orange;
+
+}
+
+.prodcate2 {
+    display: flex;
+    /* border: 1px solid black; */
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-sizing: border-box; display: grid; grid-template-columns: repeat(4,1fr);
+}
+
+.prodcate3 {
+    text-decoration: none;
+    color: black;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: center;
+    /* padding-left: 30px; */ padding-top: 20px;
+    /* padding-right: 40px; */ padding-bottom: 20px;
+
+}
+
+.prodcate2 :first-child {
+    margin-right: 10px;
+}
+
+.prodcate2 :last-child {
+    margin-left: 10px;
+}
+
+.prodcate2 :nth-child(2) {
+    margin-right: 10px;
+}
+.a7{
+    border: 2px solid black;
+    color: black; border-radius: 4px;text-decoration: none; border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;text-align: center; padding-left: 20px; padding-right: 30px;
+}
+/* ---------------------------------customers review------------------------------------- */
+.customerreview{
+    margin-left: 500px; font-size: 28px;
+}
+
+.review{
+    color: white;
+    clip-path: polygon(100% 0, 97% 59%, 100% 100%, 0% 100%, 3% 54%, 0% 0%);
+ background: orange;
+
+}
+.cusrev3{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center; border: 1px solid silver;
+    padding-top: 30px;padding-bottom: 30px;
+}
+.cusrev3 img{
+    border-radius: 50%;
+}
+.cusrev3 i{
+    color:orange;
+}
+.cusrev2{
+    display: grid;grid-template-columns: repeat(3,1fr); 
+}
+.cusrev2 :first-child{
+    margin-right: 10px;
+}
+.cusrev2 :last-child{
+    margin-left: 10px;
+}
+
+/* --------------------------------our blogs--------------------------------------- */
+
+
+.ourblogs{
+    margin-left: 580px; font-size: 28px; 
+}
+.blogs{
+    color: white;
+    clip-path: polygon(0 0, 0% 20%, 5% 50%, 0 100%, 20% 100%, 48% 100%, 100% 100%, 100% 80%, 95% 50%, 100% 0, 80% 0%, 45% 0);
+
+ background: orange;
+
+}
+.ourblogs2{
+    display: grid;grid-template-columns: repeat(3,1fr);
+    padding-left: -100px; padding-right: -100px;
+
+}
+.div{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; border: 1px dotted grey;
+    padding-bottom: 30px;
+    background-color: white; margin: 10px;
+}
+.div img{
+    width: 420px; height: 300px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+
+}
+.div i{
+    color: orange;
+}
+.a8{
+    text-decoration: none; color: black;
+    border: 2px solid black; font-family: Arial, Helvetica, sans-serif;
+    padding: 7px; width: 100px;border-radius: 5px; text-align: center;
+    padding-left: 15px;padding-right: 15px;
+}
+.user{
+    margin-left: 20px;
+}
+.date{
+    margin-left: 220px; margin-top: -35px;
+}
+.div2{
+    font-size:large; padding-left: 20px;
+}
+.div2 p{
+ font-size: small;
+}
+/*---- -----------------------footer-------------------------- */
+#footer{
+    display: grid;grid-template-columns: repeat(4,1fr);
+    padding-left: -100px;
+    padding-right: -100px;
+}
+.fh{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+}
+ .ful li{
+    list-style: none;
+    padding: 10px;
+}
+.brand3 i{
+    padding: 10px;
+    background-color: rgb(195, 190, 190);
+    margin: 5px;
+    border-radius: 5px;
+}
+.factiondiv i{
+    color: orange;
+}
+.fh i{
+    color: orange;
+    font-size: large;
+}
+.str{
+    color: orangered;
+}
+.factiondiv{
+    text-align: left;
+   
+}
+footer{
+    background-color: white;
+    margin-left: 90px;
+}
+.factiondiv a{
+    border: 2px solid black;
+    padding: 13px;
+    text-decoration: none;
+    color: black;
+    padding-left: 50px;
+    padding-right: 43px;
+    border-radius: 5px;
+}
+.factiondiv input{
+    padding: 15px;
+    border: 5px;
+    background-color: rgba(228, 223, 223, 0.678);
+    padding-right: 60px;
+}
+.factiondiv h4{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+.author{
+    background-color: white;
+     text-align: center;
+}
+.red i{
+    color: orange;
+}
